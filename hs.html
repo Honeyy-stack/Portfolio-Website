@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <h2 class="logo">MyPortfolio</h2>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="home">
+    <h1>Hello, I'm <span>Honey Goyal</span></h1>
+    <p>Web Developer | Student</p>
+    <button onclick="showMessage()">Hire Me</button>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I am a student and learning Web Development.  
+      I love creating websites using HTML, CSS, JavaScript and React.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>Personal portfolio website using HTML, CSS and JS.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>To-Do App</h3>
+      <p>A simple task manager app using JavaScript.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Calculator</h3>
+      <p>Calculator app using HTML, CSS and JavaScript.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 My Portfolio | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
